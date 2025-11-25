@@ -1,0 +1,23 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model Invoice {
+  id            Int      @id @default(autoincrement())
+  seller        String
+  productName   String
+  quantity      Int
+  priceGBP      Float
+  postageGBP    Float    @default(0)
+  total         Float
+  date          DateTime
+  invoiceNumber String?
+  notes         String?
+  createdAt     DateTime @default(now())
+}
+

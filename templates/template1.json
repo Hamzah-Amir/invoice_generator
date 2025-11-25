@@ -1,0 +1,14 @@
+{
+  "seller": "Acme Supplies Ltd",
+  "description": "Primary seller layout with right-aligned totals.",
+  "fields": {
+    "productName": { "x": 120, "y": 540, "size": 12 },
+    "quantity": { "x": 120, "y": 520, "size": 12 },
+    "priceGBP": { "x": 400, "y": 520, "size": 12 },
+    "total": { "x": 400, "y": 500, "size": 12 },
+    "date": { "x": 400, "y": 700, "size": 12 },
+    "invoiceNumber": { "x": 400, "y": 730, "size": 12 },
+    "notes": { "x": 120, "y": 460, "size": 10 }
+  }
+}
+
