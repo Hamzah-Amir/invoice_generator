@@ -4,14 +4,13 @@
   "fields": {
     "invoiceNumber": { "x": 500, "y": 685, "size": 12 },
     "date": { "x": 500, "y": 675, "size": 10 },
-    "quantity": { "x": 41, "y": 563, "size": 10 },
+    "quantity": { "x": 41, "y": 563, "size": 10, "width": 60, "align": "center" },
     "productName": { "x": 70, "y": 563, "size": 10 },
-    "priceGBP": { "x": 457, "y": 563, "size": 10 },
-
-    "lineAmount": { "x": 517.54, "y": 562.75, "size": 9 },
+    "priceGBP": { "x": 457, "y": 563, "size": 10, "width": 100, "align": "center" },
+    "lineAmount": { "x": 517.54, "y": 562.75, "size": 9, "width": 100, "align": "center" },
     "postageGBP": [
-      { "x": 460, "y": 505, "size": 10 },
-      { "x": 532, "y": 505, "size": 10 }
+      { "x": 460, "y": 505, "size": 10, "width": 100, "align": "center" },
+      { "x": 532, "y": 505, "size": 10, "width": 100, "align": "center" }
     ],
     "total": { "x": 527, "y": 186, "size": 12 }
   }
