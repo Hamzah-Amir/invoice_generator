@@ -7,7 +7,8 @@
     "quantity": { "x": 41, "y": 563, "size": 10 },
     "productName": { "x": 70, "y": 563, "size": 10 },
     "priceGBP": { "x": 457, "y": 563, "size": 10 },
-    "lineTotal": { "x": 530, "y": 563, "size": 10 },
+
+    "lineAmount": { "x": 517.54, "y": 562.75, "size": 9 },
     "postageGBP": [
       { "x": 460, "y": 505, "size": 10 },
       { "x": 532, "y": 505, "size": 10 }

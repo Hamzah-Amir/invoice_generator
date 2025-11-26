@@ -14,6 +14,7 @@ model Invoice {
   quantity      Int
   priceGBP      Float
   postageGBP    Float    @default(0)
+  lineAmount    Float?
   total         Float
   date          DateTime
   invoiceNumber String?

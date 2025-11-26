@@ -61,7 +61,9 @@ export async function POST(request) {
       date: invoiceDate,
       invoiceNumber: payload.invoiceNumber || null,
       notes: payload.notes || null,
+      lineAmount: lineTotal,
     };
+    console.log("TOTAL:", invoiceData.total)
 
     const record = await prisma.invoice.create({
       data: invoiceData,
